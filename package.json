@@ -1,0 +1,24 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha ./**/*.js",
+    "debug": "nodemon --inspect=0.0.0.0:9229 server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocks": "^0.0.15",
+    "nodemon": "^2.0.16",
+    "ronin": "^0.3.11",
+    "ronin-database": "^0.1.1",
+    "ronin-mocks": "^0.1.6",
+    "ronin-server": "^0.1.3"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
